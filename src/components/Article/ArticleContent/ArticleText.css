@@ -1,0 +1,8 @@
+.ArticleTextDescription {
+    color: var(--black-color);
+    align-self: end;
+    margin-top: 64px;
+    width: 667px;
+    font: 300 24px/28px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  

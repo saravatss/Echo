@@ -1,0 +1,26 @@
+.articleContent {
+    align-self: center;
+    display: flex;
+    margin-top: 48px;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    padding: 0 40px;
+  }
+  
+  .mainGallery {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: start;
+  }
+  
+  .bottomGallery {
+    display: flex;
+    margin-top: 64px;
+    gap: 40px 100px;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  

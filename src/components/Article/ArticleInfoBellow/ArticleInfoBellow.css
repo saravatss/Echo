@@ -1,0 +1,99 @@
+.articleInfoContainer {
+    display: flex;
+    margin-top: 48px;
+    width: 100%;
+    flex-direction: column;
+    font-family: Suisse Intl, sans-serif;
+    justify-content: center;
+    padding-bottom: 80px;
+  }
+  
+  .articleActionBar {
+    align-self: center;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: var(--white-color);
+    justify-content: center;
+    border: 0px;
+    font: 500 16px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .rateArticle {
+    border-radius: 24px;
+    background-color: rgba(12, 45, 87, 1);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 20px;
+  }
+  
+  .rateIcon {
+    object-fit: contain;
+    object-position: center;
+    width: 18px;
+  }
+  
+  .favoriteButton {
+    border-radius: 24px;
+    background-color: var(--orange-color);
+    padding: 8px 20px;
+    color: var(--white-color);
+    border: 0px;
+    font: 500 16px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .authorSection {
+    display: flex;
+    margin-top: 24px;
+    align-items: center;
+    gap: 40px 100px;
+    font-size: 32px;
+    color: var(--black-color);
+    font-weight: 400;
+    letter-spacing: -0.64px;
+    line-height: 1;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 40px;
+  }
+  
+  .authorInfo {
+    display: flex;
+    min-width: 240px;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .authorAvatar {
+    object-fit: contain;
+    object-position: center;
+    width: 90px;
+    border-radius: 50%;
+  }
+  
+  .authorName {
+    display: flex;
+    min-width: 240px;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .verificationIcon {
+    object-fit: contain;
+    object-position: center;
+    width: 24px;
+  }
+  
+  .readingStats {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .readingIcon {
+    object-fit: contain;
+    object-position: center;
+    width: 40px;
+  }
+  

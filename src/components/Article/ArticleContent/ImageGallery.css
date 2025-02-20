@@ -1,0 +1,29 @@
+.galleryContainer {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .galleryImage1,
+  .galleryImage2 {
+    object-fit: contain;
+    object-position: center;
+    width: 536px;
+    border-radius: 16px;
+    align-self: stretch;
+    min-width: 240px;
+    flex-grow: 1;
+    margin: auto 0;
+  }
+  
+  .galleryImage3,
+  .galleryImage4,
+  .galleryImage5 {
+    object-fit: contain;
+    object-position: center;
+    width: 372px;
+    align-self: stretch;
+    min-width: 240px;
+    margin: auto 0;
+  }
+  

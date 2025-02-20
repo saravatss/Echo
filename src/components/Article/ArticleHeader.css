@@ -1,0 +1,90 @@
+.articleHeader {
+    align-self: stretch;
+    display: flex;
+    width: auto;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px;
+  }
+  
+  .articleBreadcrumbs {
+    align-self: start;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #000;
+    font: 300 20px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .articleBackIcon {
+    object-fit: contain;
+    object-position: center;
+    width: 24px;
+  }
+  
+  .articleSpan {
+    text-decoration: none;
+  }
+  
+  .articleContentWrapper {
+    display: flex;
+    margin-top: 32px;
+    width: 100%;
+    gap: 40px 100px;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  
+  .articleTitle {
+    color: var(--black-color);
+    letter-spacing: -1.92px;
+    align-self: stretch;
+    width: 1039px;
+    margin: auto 0;
+    font: 700 96px/96px Tilda Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .articleMetaInfo {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    font-family: Suisse Intl, sans-serif;
+    color: var(--black-color);
+    justify-content: center;
+    width: 158px;
+    margin: auto 0;
+  }
+  
+  .articleDate {
+    text-align: right;
+    font: 300 24px/1 Suisse Intl, sans-serif;
+  }
+  
+  .readingTime {
+    display: flex;
+    margin-top: 24px;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+  .readingTimeLabel {
+    font: 300 24px/1 Suisse Intl, sans-serif;
+  }
+  
+  .readingTimeValue {
+    font: 600 40px/1.1 Suisse Intl, sans-serif;
+    letter-spacing: -1.2px;
+    align-self: end;
+  }
+  
+  @media (max-width: 991px) {
+    .articleTitle {
+      max-width: 100%;
+      font-size: 40px;
+      line-height: 45px;
+    }
+  }
+  

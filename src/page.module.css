@@ -1,0 +1,54 @@
+.example-1 {
+width: 100%;
+margin: 0 auto;
+
+splashScreen {
+    width: 1360px;
+
+    /*стили для ширины экрана 1280 и больше*/
+    &::after {
+    content: "1360px";
+    }
+
+    @media (max-width: 1279px) {
+    width: 1024px;
+
+    &::after {
+        content: "1024px";
+    }
+    /*стили для ширины экрана 1024 и больше*/
+    }
+
+    @media (max-width: 1023px) {
+    width: 768px;
+    &::after {
+        content: "768px";
+    }
+    /*стили для ширины экрана 768 и больше*/
+    }
+
+    @media (max-width: 767px) {
+    width: 545px;
+    &::after {
+        content: "545px";
+    }
+    /*стили для ширины экрана 545 и больше*/
+    }
+
+    @media (max-width: 544px) {
+    width: 100px;
+    &::after {
+        content: "0px";
+    }
+    /*стили для ширины экрана 0 и больше*/
+    }
+}
+
+/*container queries*/
+@container (max-width: 767px) {
+    &::after {
+    content: "container max-width: 767px";
+    }
+}
+}
+  
