@@ -1,0 +1,256 @@
+.splashScreen {
+    display: flex;
+    padding-bottom: 40px;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+  }
+  
+  .pattern {
+    position: absolute;
+    width: 313px;
+    z-index: -6;
+    left: 614px;
+    bottom: 0px;
+  }
+  
+  .contentError {
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .titleError {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .headingError {
+    color: var(--black-color);
+    letter-spacing: -1.28px;
+    font: 700 64px/64px Tilda Sans, -apple-system, Roboto, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  @media (max-width: 1024px) {
+    .headingError {
+      font-size: 56px;
+      letter-spacing: -1.28px;
+      line-height: 56px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .headingError {
+      font-size: 40px;
+      letter-spacing: -1.28px;
+      line-height: 40px;
+    }
+  }
+  
+  @media (max-width: 625px) {
+    .headingError {
+      font-size: 32px;
+      letter-spacing: -1.28px;
+      line-height: 32px;
+    }
+  }
+  
+  .subscriptionForm {
+    display: flex;
+    margin-top: 48px;
+    max-width: 699px;
+    align-items: center;
+    gap: 16px;
+    font: 500 20px/1 Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .emailInput {
+    color: var(--black-color);
+    border-radius: 15px;
+    background-color: var(--grey-color);
+    min-width: 240px;
+    padding: 16px 32px;
+    padding-right: 257px;
+    border: 0px;
+    font: 400 20px / 1 Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .submitButton {
+    border-radius: 60px;
+    background-color: var(--orange-color);
+    color: var(--white-color);
+    padding: 16px 32px;
+    border: none;
+    cursor: pointer;
+    font: 400 20px / 1 Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  @media (max-width: 1024px) {
+    .emailInput {
+      padding: 16px 28px;
+      border-radius: 11px;
+      font: 400 16px / 1 Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+    }
+  
+    .submitButton {
+      font: 400 16px / 1 Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .submitButton {
+      padding: 16px 20px;
+    }
+    .subscriptionForm {
+      margin-top: 32px;
+    }
+  }
+  
+  .message {
+    margin-top: 80px;
+    max-width: 781px;
+    color: var(--black-color);
+    font: 300 24px/28px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .socialSection {
+    display: flex;
+    margin-top: 128px;
+    max-width: 100%;
+    padding-left: 40px;
+    flex-direction: column;
+  }
+  
+  .socialHeading {
+    color: var(--black-color);
+    font: 300 24px/1 Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .socialIcons {
+    align-self: flex-start;
+    display: flex;
+    margin-top: 16px;
+    align-items: center;
+    gap: 40px;
+    justify-content: flex-start;
+  }
+  
+  .socialIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 32px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  
+  .popUp {
+    align-self: stretch;
+    border-radius: 60px;
+    background-color: var(--orange-color);
+    color: var(--white-color);
+    white-space: nowrap;
+    margin: auto 0;
+    padding: 16px 32px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 1024px) {
+    .message {
+      font: 300 20px/24px Suisse Intl, -apple-system, Roboto, Helvetica,
+        sans-serif;
+      margin-top: 64px;
+    }
+  
+    .socialSection {
+      bottom: 0;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .socialSection {
+      margin-top: 128px;
+    }
+  
+    .socialIcons {
+      margin-top: 0px;
+    }
+  
+    .message {
+      font: 300 20px/24px Suisse Intl, -apple-system, Roboto, Helvetica,
+        sans-serif;
+      margin-top: 48px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .message {
+      max-width: 550px;
+      font: 300 20px / 20px Suisse Intl, -apple-system, Roboto, Helvetica,
+        sans-serif;
+      margin-top: 44px;
+    }
+  
+    .emailInput {
+      padding: 16px 18px;
+      padding-right: 0px;
+    }
+  
+    .subscriptionForm {
+      gap: 8px;
+    }
+  }
+  
+  @media (max-width: 430px) {
+    .contentError {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    .emailInput,
+    .submitButton {
+      padding: 12px 18px;
+    }
+  
+    .emailInput {
+      min-width: 120px;
+    }
+  
+    .headingError {
+      font-size: 40px;
+      line-height: 40px;
+    }
+  
+    .message {
+      font: 300 24px / 28px Suisse Intl, -apple-system, Roboto, Helvetica,
+        sans-serif;
+    }
+  
+    .socialSection {
+      bottom: 0;
+      padding-left: 20px;
+    }
+  
+    .socialHeading {
+      margin-bottom: 16px;
+    }
+  
+    .splashScreen {
+      padding-bottom: 20px;
+    }
+  
+    .socialIcons {
+      gap: 20px;
+    }
+  }
+  
+  .imgPopUp {
+    width: 256px;
+  }
+  

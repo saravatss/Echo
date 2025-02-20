@@ -12,15 +12,15 @@ export default function Header() {
           <img src="./Logo.svg" className="Logo" />
         </div>
         <nav className="navigation">
-          <li className="navItem navItem-active a">
+          <Link href={`/`} className="navItem navItem-active a">
             Главная
-          </li>
-          <li className="navItem a">
+          </Link>
+          <Link href={`/splashScreen`} className="navItem a">
             Авторы
-          </li>
-          <li className="navItem a">
+          </Link>
+          <Link href={`/splashScreen`} className="navItem a">
             Карта
-          </li>
+          </Link>
         </nav>
       </div>
       <form className="searchContainer">
