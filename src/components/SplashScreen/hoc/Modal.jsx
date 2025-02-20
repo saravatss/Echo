@@ -1,3 +1,4 @@
+"use client"
 import { useEffect } from "react";
 import Portal from "./Portal";
 import "./Modal.css";
