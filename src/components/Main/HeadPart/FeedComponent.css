@@ -63,6 +63,8 @@
     position: relative;
     display: flex;
     align-items: center;
+    background-color: #dedede;;
+    border-radius: 8px;
   }
   
   .select {

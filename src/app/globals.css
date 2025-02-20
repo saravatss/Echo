@@ -1,3 +1,26 @@
 img {
   object-fit: cover;
 }
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  margin: 0;
+}
+
+:root {
+  --black-color: #111112;
+  --white-color: #fffefc;
+  --dark-blue-color: #0c2d57;
+  --grey-color: #ebebeb;
+  --orange-color: #e95a32;
+  --grey-100-color: #f1f1f1;
+}
