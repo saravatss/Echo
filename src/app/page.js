@@ -1,10 +1,10 @@
 "use client";
-import Image from "next/image";
+import FeedTitle from "./components/Main/HeadPart/Content";
 
 export default function HomePage() {
   return (
     <div>
-      jfjfjfjfjfjjf
+      <FeedTitle />
     </div>
   );
 }
