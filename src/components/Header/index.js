@@ -1,4 +1,5 @@
 'use client'
+import './header.css';
 
 import Link from "next/link";
 

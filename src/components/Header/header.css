@@ -1,0 +1,163 @@
+.headerSearch {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px 40px 80px;
+    background-color: transparent;
+  }
+  
+  .logoContainer {
+    align-self: stretch;
+    display: flex;
+    min-width: 240px;
+    align-items: center;
+    gap: 40px 74px;
+    white-space: nowrap;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    width: 672px;
+    margin: auto 0;
+  }
+  
+  .Logo {
+    height: 40px;
+  }
+  
+  .upperLogo {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: var(--black-color);
+    justify-content: flex-start;
+    width: 155px;
+    margin: auto 0;
+    font: 800 40px Tilda Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .burgerIcon {
+    aspect-ratio: 1.14;
+    object-fit: contain;
+    object-position: center;
+    width: 32px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  
+  .navigation {
+    align-self: stretch;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 40px 64px;
+    color: #111112;
+    justify-content: center;
+    margin: auto 0;
+    font: 300 20px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 1204px) {
+    .navigation {
+      display: none;
+    }
+  }
+  
+  .navItem {
+    align-self: stretch;
+    margin: auto 0;
+    text-decoration: none;
+  }
+  
+  .navItem-active {
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .searchContainer {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    margin: auto 0;
+    padding: 0 12px 0 18px;
+    font: 300 16px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .searchIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 32px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  
+  .searchInput {
+    align-self: stretch;
+    width: 350px;
+    height: 24px;
+    border-radius: 25px;
+    background-color: #ebebeb;
+    min-width: 240px;
+    overflow: hidden;
+    margin: auto 0;
+    padding: 8px 16px;
+    border: none;
+    font: inherit;
+    color: inherit;
+  }
+  
+  .userIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 32px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  
+  .a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  @media (max-width: 991px) {
+    .headerSearch {
+      padding: 40px 40px 80px;
+    }
+  
+    .searchInput {
+      display: none;
+    }
+  
+    .searchContainer {
+      padding: 0 24px 0 18px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .headerSearch {
+      padding: 40px 40px 64px;
+    }
+  
+    .searchIcon,
+    .userIcon,
+    .burgerIcon {
+      width: 24px;
+    }
+  }
+  
+  @media (max-width: 430px) {
+    .headerSearch {
+      padding: 24px 24px 40px;
+    }
+  
+    .upperLogo {
+      gap: 28px;
+    }
+  }
+  

@@ -1,0 +1,214 @@
+.footer {
+    background-color: var(--dark-blue-color);
+    display: flex;
+    gap: 40px 256px;
+    padding: 64px 40px;
+  }
+  
+  @media (max-width: 991px) {
+    .footer {
+      padding: 64px 20px;
+    }
+  }
+  
+  .contentWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 991px) {
+    .contentWrapper {
+      max-width: 100%;
+    }
+  }
+  
+  .mainContent {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    color: var(--white-color);
+    justify-content: center;
+  }
+  
+  @media (max-width: 991px) {
+    .mainContent {
+      max-width: 100%;
+    }
+  }
+  
+  .headline {
+    letter-spacing: -1.28px;
+    font: 700 64px/64px Tilda Sans, -apple-system, Roboto, Helvetica, sans-serif;
+    margin: 0px;
+  }
+  
+  @media (max-width: 991px) {
+    .headline {
+      max-width: 100%;
+      font-size: 40px;
+      line-height: 44px;
+      margin: 0px;
+    }
+  }
+  
+  .ctaButton {
+    align-self: flex-start;
+    border-radius: 60px;
+    background-color: var(--orange-color);
+    margin-top: 40px;
+    gap: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 16px 32px;
+    font: 500 20px/1 Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+    border: none;
+    cursor: pointer;
+    color: var(--white-color);
+  }
+  
+  @media (max-width: 991px) {
+    .ctaButton {
+      padding: 16px 20px;
+    }
+  }
+  
+  .bottomSection {
+    display: flex;
+    margin-top: 97px;
+    width: 408px;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  @media (max-width: 991px) {
+    .bottomSection {
+      margin-top: 40px;
+    }
+  }
+  
+  .socialMedia {
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: flex-start;
+  }
+  
+  .socialIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 32px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  
+  .copyright {
+    color: var(--white-color);
+    margin-top: 48px;
+    font: 300 24px/1 Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+    margin-bottom: 0px;
+  }
+  
+  @media (max-width: 991px) {
+    .copyright {
+      margin-top: 40px;
+    }
+  }
+  
+  .sideContent {
+    min-width: 240px;
+    min-height: 428px;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+  }
+  
+  .menu {
+    display: flex;
+    width: 121px;
+    max-width: 100%;
+    flex-direction: column;
+    color: var(--white-color);
+    justify-content: center;
+    font: 300 24px/1 Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .menuItem {
+    color: rgba(255, 254, 252, 1);
+    text-decoration: none;
+  }
+  
+  .menuItemActive {
+    font-weight: 600;
+  }
+  
+  .menuItem:not(:first-child) {
+    margin-top: 32px;
+  }
+  
+  .logo {
+    color: var(--white-color);
+    margin-top: 232px;
+    height: 64px;
+  }
+  
+  @media (max-width: 991px) {
+    .logo {
+      margin-top: 232px;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .footer {
+      gap: 80px;
+    }
+  
+    .headline {
+      font: 700 56px / 64px Tilda Sans, -apple-system, Roboto, Helvetica,
+        sans-serif;
+    }
+  }
+  
+  @media (max-width: 430px) {
+    .footer {
+      display: block;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  
+    .headline {
+      font: 700 33px / 38px Tilda Sans, -apple-system, Roboto, Helvetica,
+        sans-serif;
+    }
+  
+    .ctaButton {
+      font: 500 16px/1 Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+    }
+  
+    .copyright {
+      font: 300 16px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+      margin-top: 24px;
+    }
+  
+    .sideContent {
+      display: none;
+    }
+  
+    .contentWrapper {
+      gap: 64px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .headline {
+      font: 700 40px Tilda Sans, -apple-system, Roboto, Helvetica, sans-serif;
+    }
+  
+    .copyright {
+      font: 300 20px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+    }
+  }
+  
