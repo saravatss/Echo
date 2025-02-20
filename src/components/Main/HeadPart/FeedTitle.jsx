@@ -1,7 +1,7 @@
 "use client";
 import "./FeedComponent.css";
-import FilterSection from  "@/components/Main/FilterSection";
-import PopularTags from  "@/components/Main/PopularTags";
+import FilterSection from "./FilterSection";
+import PopularTags from "./PopularTags";
 
 export default function FeedTitle() {
   return (

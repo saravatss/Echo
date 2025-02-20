@@ -20,7 +20,7 @@ function FilterSection() {
         {filterOptions.map((filter, index) => (
           <FilterDropdown key={index} {...filter} />
         ))}
-        <FilterButton label="Все фильтры" iconSrc=".//icons/all-filters.png" />
+        <FilterButton label="Все фильтры" iconSrc="./all-filters.png" />
       </div>
       <button className="clearFilters">Очистить фильтры</button>
     </section>

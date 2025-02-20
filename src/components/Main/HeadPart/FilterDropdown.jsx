@@ -13,7 +13,7 @@ function FilterDropdown({ label, options, defaultOption }) {
             </option>
           ))}
         </select>
-        <img src="./icons/arrow-down.png" alt="" className="ropdownIcon" />
+        <img src="./arrow-down.png" alt="" className="ropdownIcon" />
       </div>
     </div>
   );
