@@ -4,12 +4,19 @@ import './header.css';
 import Link from "next/link";
 
 export default function Header() {
+
+  const handleLogoClick = () => {
+    ym(100354197, 'reachGoal', 'clickLogo')
+  }
+
   return (
     <header className="headerSearch">
       <div className="logoContainer">
         <div className="upperLogo">
           <img src="./burgericon.svg" className="burgerIcon" />
-          <img src="./Logo.svg" className="Logo" />
+          <button onClick={handleLogoClick}>
+            <img src="./Logo.svg" className="Logo" />
+          </button>
         </div>
         <nav className="navigation">
           <Link href={`/`} className="navItem navItem-active a">
