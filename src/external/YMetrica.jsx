@@ -2,8 +2,9 @@
  
 import { useEffect } from 'react'
 import { usePathname, useSearchParams } from 'next/navigation'
+import { Suspense } from 'react'
  
-export default function YandexMetrika() {
+function YandexMetrika() {
   const pathname = usePathname()
   const searchParams = useSearchParams()
  
@@ -14,4 +15,11 @@ export default function YandexMetrika() {
   }, [pathname, searchParams])
  
   return null
+}
+export default function YMetrikaComponent() {
+	return (
+		<Suspense fallback={null}>
+			<YandexMetrika />
+		</Suspense>
+	)
 }

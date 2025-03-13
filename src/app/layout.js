@@ -1,7 +1,8 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Script from 'next/script';
-import YandexMetrika from "@/external/YMetrica";
+import YMetrikaComponent from "@/external/YMetrica";
+import { Suspense } from 'react'
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -40,7 +41,9 @@ export default function RootLayout({ children }) {
     </Script>
       </head>
       <body>
-        <YandexMetrika />
+        <Suspense fallback={<></>}>
+          <YMetrikaComponent />
+        </Suspense>
         {children}
       </body>
     </html>
