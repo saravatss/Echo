@@ -6,6 +6,11 @@ import { useState } from "react";
 
 const SplashScreen = () => {
   const [isOpen, setIsOpen] = useState(false);
+
+  const handleButtonClick = () => {
+    ym(100354197, 'reachGoal', 'clickButton')
+  }
+
   return (
     <div className="splashScreen">
       <div className="contentError">
@@ -23,7 +28,7 @@ const SplashScreen = () => {
               className="emailInput"
               aria-label="Электронная почта"
             />
-            <button type="submit" className="submitButton">
+            <button type="submit" className="submitButton" onClick={handleButtonClick}>
               Отправить
             </button>
           </form>
