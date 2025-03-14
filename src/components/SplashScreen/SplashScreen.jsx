@@ -4,10 +4,6 @@ import Modal from "@/components/SplashScreen/hoc/Modal"
 import Popup from "@/components/SplashScreen/Popup"
 import { useState } from "react";
 
-const handleButtonClick = () => {
-  ym(100354197, 'reachGoal', 'clickButton')
-}
-
 
 const SplashScreen = () => {
   const [isOpen, setIsOpen] = useState(false);
