@@ -11,6 +11,11 @@ const handleButtonClick = () => {
 
 const SplashScreen = () => {
   const [isOpen, setIsOpen] = useState(false);
+
+  const handleButtonClick = () => {
+    ym(100354197, 'reachGoal', 'clickButton')
+  }
+
   return (
     <div className="splashScreen">
       <div className="contentError">
