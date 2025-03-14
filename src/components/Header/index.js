@@ -14,9 +14,9 @@ export default function Header() {
       <div className="logoContainer">
         <div className="upperLogo">
           <img src="./burgericon.svg" className="burgerIcon" />
-            <Link href={`/`} className="submitButton" onClick={handleLogoClick}>
-              Отправить
-            </Link>
+          <Link href={`/`} className="upperLogo" onClick={handleLogoClick}>
+            <img src="./Logo.svg" className="Logo" />
+          </Link>
         </div>
         <nav className="navigation">
           <Link href={`/`} className="navItem navItem-active a">
