@@ -13,7 +13,7 @@ export default function Footer() {
             Погрузитесь в изучение <br /> уникальных культур!
           </h2>
           <div className="ctaButton">
-            <Link href="">
+            <Link href="https://forms.gle/X49kwwSVUBqLncn49">
               <Button theme="orange" text="Стать автором"/>
             </Link>
           </div>
