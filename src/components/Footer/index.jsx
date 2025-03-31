@@ -1,5 +1,6 @@
 'use client'
 import './footer.css';
+import Button from '../UI/Buttons';
 
 import Link from "next/link";
 
@@ -11,7 +12,12 @@ export default function Footer() {
           <h2 className="headline">
             Погрузитесь в изучение <br /> уникальных культур!
           </h2>
-          <button className="ctaButton">Зарегистрироваться</button>
+          <div className="ctaButton">
+            <Link href="">
+              <Button theme="orange" text="Стать автором"/>
+            </Link>
+          </div>
+          
         </div>
         <div className="bottomContent">
           <div className="socialMedia">

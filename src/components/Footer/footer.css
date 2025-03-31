@@ -54,17 +54,9 @@
   
   .ctaButton {
     align-self: flex-start;
-    border-radius: 60px;
-    background-color: var(--orange-color);
     margin-top: 40px;
-    gap: 10px;
-    overflow: hidden;
-    white-space: nowrap;
-    padding: 16px 32px;
     font: 500 20px/1 Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
-    border: none;
     cursor: pointer;
-    color: var(--white-color);
   }
   
   @media (max-width: 991px) {

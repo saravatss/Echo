@@ -62,7 +62,7 @@ export default function Header() {
           <Link href={`/`} className="navItem a">
             Лента
           </Link>
-          <Link href={`/splashScreen`} className="navItem a">
+          <Link href={`/authors`} className="navItem a">
             Авторы
           </Link>
           <Link href={`/splashScreen`} className="navItem a">

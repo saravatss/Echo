@@ -1,0 +1,75 @@
+.authorsContainer {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 40px 20px;
+    padding-bottom: 128px;
+  }
+
+  
+  .authorsGrid {
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 40px;
+    flex-direction: column;
+  }
+  
+  .authorCard {
+    background: var(--white-color);
+    padding: 24px;
+    transition: transform 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  
+  .authorCard:hover {
+    transform: translateY(-5px);
+  }
+  
+  .authorHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .avatarPlaceholder {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 16px;
+    background-color: var(--white-color);
+  }
+  
+  .avatar {
+    object-fit: cover;
+  }
+  
+  .authorInfo {
+    flex: 1;
+  }
+  
+  .authorName {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 4px 0;
+    color: var(--black-color);
+    font: 400 32px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .followers {
+    color: var(--black-color);
+    margin: 0;
+    font: 300 32px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .authorDescription {
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--black-color);
+    margin-bottom: 20px;
+    font: 300 24px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+    width: 575px;
+  }
+  
