@@ -52,9 +52,14 @@ export default function Header() {
       </div>
 
       <div className="logoContainer">
+        <div className="upperLogo">
+        <div className="menu__toggler"><span className='sections'></span></div>
+          <img src="./Logo.svg" className="Logo" />
+          <img src="./burgericon.svg" className="burgerIcon" />
           <Link href={`/`} className="upperLogo" onClick={handleLogoClick}>
             <img src="./Logo.svg" className="Logo" />
           </Link>
+      </div>
         <nav className="navigation">
           <Link href={`/`} className="navItem a">
             Лента
