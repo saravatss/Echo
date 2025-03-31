@@ -36,7 +36,7 @@
 }
 
 .menu__toggler {
-  z-index: 999;
+  z-index: 1001;
   height: 28px;
   width: 28px;
   outline: none;
@@ -70,7 +70,7 @@
 .menu {
   position: fixed;
   left: -30%;
-  z-index: 996;
+  z-index: 990;
   color: var(--black-color);
   background: transparent;
   width: -webkit-fill-available;
@@ -191,7 +191,7 @@ a:hover, a:active {
 }
 
 .navItem.active {
-  display: none;
+  opacity: 0;
 }
 
 .searchContainer {
