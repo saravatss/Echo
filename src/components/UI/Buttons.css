@@ -1,0 +1,31 @@
+.button {
+    border-radius: 60px;
+    padding: 16px 32px;
+    border: none;
+    cursor: pointer;
+    font: 400 20px / 1 Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.button-orange {
+    background-color: var(--orange-color);
+    color: var(--white-color);
+}
+
+.button-orange:hover {
+    background-color: var(--dark-blue-color);
+    color: var(--white-color);
+    transition: 0.2s;
+}
+
+.button-white {
+    background-color: var(--white-color);
+    color: var(--dark-blue-color);
+    border: 2px solid var(--dark-blue-color);
+}
+
+.button-white:hover {
+    background-color: var(--dark-blue-color);
+    color: var(--white-color);
+    border: 2px solid var(--dark-blue-color);
+    transition: 0.2s;
+}

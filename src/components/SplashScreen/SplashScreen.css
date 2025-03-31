@@ -79,25 +79,12 @@
     border: 0px;
     font: 400 20px / 1 Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
   }
-  
-  .submitButton {
-    border-radius: 60px;
-    background-color: var(--orange-color);
-    color: var(--white-color);
-    padding: 16px 32px;
-    border: none;
-    cursor: pointer;
-    font: 400 20px / 1 Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
-  }
+
   
   @media (max-width: 1024px) {
     .emailInput {
       padding: 16px 28px;
       border-radius: 11px;
-      font: 400 16px / 1 Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
-    }
-  
-    .submitButton {
       font: 400 16px / 1 Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
     }
   }

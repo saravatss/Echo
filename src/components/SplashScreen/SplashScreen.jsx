@@ -3,8 +3,11 @@ import "./SplashScreen.css";
 import Modal from "@/components/SplashScreen/hoc/Modal"
 import Popup from "@/components/SplashScreen/Popup"
 import { useState } from "react";
+import Button from "../UI/Buttons";
 
-const SplashScreen = () => {
+const SplashScreen = ({
+	onButtonClick = () => { },
+}) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="splashScreen">
@@ -23,9 +26,7 @@ const SplashScreen = () => {
               className="emailInput"
               aria-label="Электронная почта"
             />
-            <button type="submit" className="submitButton">
-              Отправить
-            </button>
+            <Button theme="orange" text="Отправить" onClick={onButtonClick} className="submitButton"/>
           </form>
         </div>
         <p className="message">

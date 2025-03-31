@@ -9,7 +9,7 @@ export default function FeedTitle() {
       <header className="header">
         <h1 className="title">
           <span className="feedTitle">Лента</span>
-          <span className="subscriptionsTitle">Подписки</span>
+          <span className="subscriptionsTitle">Авторы</span>
         </h1>
       </header>
       <FilterSection />

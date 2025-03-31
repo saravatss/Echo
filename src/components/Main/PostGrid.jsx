@@ -1,4 +1,3 @@
-'use client'
 import "./PostGrid.css";
 import Link from "next/link";
 
