@@ -4,6 +4,11 @@ import Link from "next/link";
 import MenuToggler from './MenuToggler';
 
 export default function Header() {
+
+  const handleLogoClick = () => {
+    ym(100354197, 'reachGoal', 'clickLogo')
+  }
+
   return (
     <header className="headerSearch">
       <MenuToggler />
@@ -48,7 +53,7 @@ export default function Header() {
 
       <div className="logoContainer">
         <div className="upperLogo">
-          <div className="menu__toggler"><span className='sections'></span></div>
+          <img src="./burgericon.svg" className="burgerIcon" />
           <img src="./Logo.svg" className="Logo" />
         </div>
         <nav className="navigation">

@@ -3,12 +3,16 @@ import "./SplashScreen.css";
 import Modal from "@/components/SplashScreen/hoc/Modal"
 import Popup from "@/components/SplashScreen/Popup"
 import { useState } from "react";
-import Button from "../UI/Buttons";
 
 const SplashScreen = ({
 	onButtonClick = () => { },
 }) => {
   const [isOpen, setIsOpen] = useState(false);
+
+  const handleButtonClick = () => {
+    ym(100354197, 'reachGoal', 'clickButton')
+  }
+
   return (
     <div className="splashScreen">
       <div className="contentError">
@@ -26,7 +30,9 @@ const SplashScreen = ({
               className="emailInput"
               aria-label="Электронная почта"
             />
-            <Button theme="orange" text="Отправить" onClick={onButtonClick} className="submitButton"/>
+            <button type="submit" className="submitButton">
+              Отправить
+            </button>
           </form>
         </div>
         <p className="message">

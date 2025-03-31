@@ -1,5 +1,3 @@
-"use client";
-
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import FeedTitle from "@/components/Main/HeadPart/FeedTitle";
