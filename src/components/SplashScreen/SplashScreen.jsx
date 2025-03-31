@@ -28,9 +28,7 @@ const SplashScreen = () => {
               className="emailInput"
               aria-label="Электронная почта"
             />
-            <button type="submit" className="submitButton" onClick={handleButtonClick}>
-              Отправить
-            </button>
+            <Button theme="orange" text="Отправить" onClick={handleButtonClick} />
           </form>
         </div>
         <p className="message">

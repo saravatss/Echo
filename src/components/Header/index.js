@@ -52,7 +52,7 @@ export default function Header() {
       </div>
 
       <div className="logoContainer">
-      <Link href={`/`} className="upperLogo" onClick={handleLogoClick}>
+          <Link href={`/`} className="upperLogo" onClick={handleLogoClick}>
             <img src="./Logo.svg" className="Logo" />
           </Link>
         <nav className="navigation">
