@@ -9,7 +9,7 @@ export default function ArticleHeader() {
         <h1 className="articleTitle">Материальная культура телеутов</h1>
 
         <aside className="articleMetaInfo">
-          <p className="articleDate">12.11.24</p>
+          <p className="articleDate">12 ноября 2024</p>
           <div className="readingTime">
             <span className="readingTimeLabel">Время чтения</span>
             <span className="readingTimeValue">1,5 мин</span>

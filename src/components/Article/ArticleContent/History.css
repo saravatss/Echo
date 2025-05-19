@@ -24,3 +24,6 @@
     flex-direction: row;
   }
   
+.galleryImage1, .galleryImage2 {
+  width: 672px;
+}
