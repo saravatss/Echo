@@ -81,7 +81,7 @@
 
 .menu {
   position: fixed;
-  left: -30%;
+  left: -100%;
   z-index: 990;
   color: var(--black-color);
   background: transparent;
