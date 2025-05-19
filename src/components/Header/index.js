@@ -54,8 +54,9 @@ export default function Header() {
       <div className="logoContainer">
         <div className="upperLogo">
         <div className="menu__toggler"><span className='sections'></span></div>
-          <Link href={`/`} onClick={handleLogoClick}>
+          <Link href={`/`} onClick={handleLogoClick} className='linkMain'>
             <img src="./Logo.svg" className="Logo" />
+            <div className='websiteName'>ЭХО</div>
           </Link>
       </div>
         <nav className="navigation">
@@ -65,7 +66,7 @@ export default function Header() {
           <Link href={`/authors`} className="navItem a">
             Авторы
           </Link>
-          <Link href={`/splashScreen`} className="navItem a">
+          <Link href={`/map`} className="navItem a">
             Карта
           </Link>
         </nav>

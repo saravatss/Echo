@@ -1,0 +1,24 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px;
+}
+
+.MapTitle {
+    font: 700 96px/1 Tilda Sans, -apple-system, Roboto, Helvetica, sans-serif;
+    letter-spacing: -1.92px;
+    color: var(--black-color);
+}
+
+.textMap {
+    font: 300 24px/28px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.blockTextMap {
+    width: 584px;
+    margin-left: 590px;
+}
+
+.imgMap {
+    margin:44px 64px 96px 64px;
+}

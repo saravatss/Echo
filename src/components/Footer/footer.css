@@ -10,6 +10,11 @@
       padding: 64px 20px;
     }
   }
+
+  .footerPattern {
+    width: 100%;
+    margin-bottom: -5px;
+  }
   
   .contentWrapper {
     display: flex;
@@ -118,30 +123,24 @@
     height: auto;
   }
   
-  .menu {
+  .menuFooter {
     display: flex;
     width: 121px;
     max-width: 100%;
+    gap: 32px;
     flex-direction: column;
     color: var(--white-color);
     justify-content: center;
     font: 300 24px/1 Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
   }
   
-  .menuItem {
+  .menuOneFooter {
     color: rgba(255, 254, 252, 1);
     text-decoration: none;
   }
+
   
-  .menuItemActive {
-    font-weight: 600;
-  }
-  
-  .menuItem:not(:first-child) {
-    margin-top: 32px;
-  }
-  
-  .logo {
+  .logoFooter {
     color: var(--white-color);
     margin-top: 232px;
     height: 64px;

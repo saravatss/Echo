@@ -22,12 +22,24 @@
 .Logo {
   height: 40px;
 }
+
+.websiteName {
+  color: var(--orange-color);
+  font: 700 24px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.linkMain {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+}
   
 .upperLogo {
   align-self: stretch;
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 64px;
   color: var(--black-color);
   justify-content: flex-start;
   width: 155px;
@@ -115,6 +127,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 350px;
+  opacity: 0;
 }
 
 .menuSection {

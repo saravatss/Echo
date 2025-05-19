@@ -49,7 +49,7 @@ const AuthorsContent = () => {
   ]
 
   return (
-    <div className="authorsContainer">;
+    <div className="authorsContainer">
       
       <div className="authorsGrid">
         {authors.map((authors, index) => (
