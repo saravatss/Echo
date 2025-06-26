@@ -1,0 +1,22 @@
+.typeRow {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--black-color);
+  grid-row: 4; /* Перемещено на четвертую строку */
+  grid-column: 1;
+}
+
+.typeIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+}
+
+.typeText {
+  font-weight: 500;
+  font-size: 12px;
+  font: 500 16px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+}

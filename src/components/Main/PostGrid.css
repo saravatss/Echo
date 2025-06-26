@@ -5,30 +5,32 @@ img {
 figure {
     margin: 0;
     display: grid;
+    grid-template-rows: auto auto 1fr auto; /* Добавлено явное распределение строк */
     padding: 20px 16px;
     margin-bottom: 20px;
     break-inside: avoid;
-    border-radius: 12px;
-    border: 1px solid var(--black-color);
+    background-color: var(--grey-100-color);
+    border-radius: 16px;
+    gap: 8px; /* Добавлен промежуток между элементами */
 }
   
-figure > img {
-    grid-row: 1 / -1;
-    grid-column: 1;
-}
-  
+
 figure p {
     color: var(--black-color);
     text-decoration: none;
     font: 600 24px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
 }
   
+figure > img {
+    grid-row: 1;
+    grid-column: 1;
+    width: 100%;
+}
+
 figcaption {
-    grid-row: 2;
+    grid-row: 3; /* Перемещено на третью строку */
     grid-column: 1;
     justify-self: start;
-    padding-top: 16px;
-    padding-bottom: 16px;
 }
   
 .container {
@@ -78,5 +80,11 @@ figure {
 .figure a {
     font: 600 20px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
 }
+}
+
+.tags {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 4px;
 }
   
