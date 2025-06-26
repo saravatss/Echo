@@ -3,7 +3,7 @@
   align-items: center;
   gap: 6px;
   color: var(--black-color);
-  grid-row: 4; /* Перемещено на четвертую строку */
+  grid-row: 4;
   grid-column: 1;
 }
 

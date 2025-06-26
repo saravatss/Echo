@@ -11,7 +11,7 @@ figure {
     break-inside: avoid;
     background-color: var(--grey-100-color);
     border-radius: 16px;
-    gap: 8px; /* Добавлен промежуток между элементами */
+    gap: 8px; 
 }
   
 
@@ -28,7 +28,7 @@ figure > img {
 }
 
 figcaption {
-    grid-row: 3; /* Перемещено на третью строку */
+    grid-row: 3; 
     grid-column: 1;
     justify-self: start;
 }
