@@ -4,7 +4,7 @@
   gap: 6px;
   color: var(--black-color);
   grid-row: 2; /* Размещаем на второй строке */
-grid-column: 1;
+    grid-column: 1;
 }
 
 .placeIcon {
