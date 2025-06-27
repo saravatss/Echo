@@ -1,0 +1,95 @@
+.container {
+    margin: 40px;
+}
+
+.firstFont {
+    font-family: Tilda Sans, -apple-system, Roboto, Helvetica, sans-serif;
+    font-size: 96px;
+    letter-spacing: -2%;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.secondFont {
+    font-family: "New-Gen";
+    font-size: 85px;
+    letter-spacing: -2%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.firstRow {
+    display: flex;
+}
+
+.secondLine {
+    display: flex;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.forthLine {
+    margin-left: 24px;
+}
+
+.itemDecript {
+    font-size: 24px;
+    font-family: Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+    color: var(--dark-blue-color);
+    font-weight: 300;
+    max-width: 200px;
+}
+
+.descriptionLanding {
+    margin-top: 40px;
+    display: flex;
+    gap: 80px;
+}
+
+.mainImg {
+  width: 100%;
+  height: auto;
+}
+
+.captionLanding {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
+.wholeDescript {
+    font-size: 32px;
+    font-family: Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+    color: var(--black-blue-color);
+    font-weight: 300;
+    max-width: 785px;
+}
+
+.advantLine {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 220px;
+}
+
+.infoAbout {
+    color: var(--white-color);
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1400px;
+    margin-top: 80px;
+    gap: 52px;
+}
+
+.AboutSeveral {
+    font-family: "New-Gen";
+    font-size: 72px;
+}
+
+.AboutText {
+    font-family: Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+    font-size: 24px;
+}

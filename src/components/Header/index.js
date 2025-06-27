@@ -54,7 +54,7 @@ export default function Header() {
       <div className="logoContainer">
         <div className="upperLogo">
         <div className="menu__toggler"><span className='sections'></span></div>
-          <Link href={`/`} onClick={handleLogoClick} className='linkMain'>
+          <Link href={`/landing`} onClick={handleLogoClick} className='linkMain'>
             <img src="./Logo.svg" className="Logo" />
             <div className='websiteName'>ЭХО</div>
           </Link>

@@ -1,6 +1,8 @@
 @font-face {
-  font-family: 'New Gen 2';
-  src: url('/fonts/NewGen2.ttf') format('truetype');
+  font-family: 'New-Gen';
+  src: url('/fonts/NewGen2.woff2') format('woff2'),
+       url('/fonts/NewGen2.woff') format('woff'),
+       url('/fonts/NewGen2.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
