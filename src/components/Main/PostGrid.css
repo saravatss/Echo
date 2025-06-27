@@ -62,7 +62,7 @@ figure a {
 }
 
 .container {
-    column-count: 3;
+    column-count: 4;
     column-gap: 16px;
     margin-bottom: 64px;
     padding: 20px;
