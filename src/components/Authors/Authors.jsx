@@ -1,6 +1,7 @@
 'use client'
 import Image from 'next/image'
 import './Authors.css'
+import Link from "next/link";
 
 const AuthorsContent = () => {
   const authors = [
@@ -65,11 +66,27 @@ const AuthorsContent = () => {
                 />
               </div>
               <div className="authorInfo">
-                <h2 className="authorName">{authors.name}</h2>
+                <Link href="/oneAuthor"><h2 className="authorName">{authors.name}</h2></Link>
+                <Image 
+                  src="/images/arrow.svg"
+                  alt=''
+                  width={24}
+                  height={24}
+                  className="arrowAutors"
+                />
               </div>
             </div>
             <p className="authorDescription">{authors.description}</p>
-            <p className="followers">{authors.followers}</p>
+            <div className="likesAuthors">
+              <Image 
+                  src="/images/like.svg"
+                  alt=''
+                  width={40}
+                  height={40}
+                  className="likeAutors"
+                />
+              <p className="followers">{authors.followers}</p>
+            </div>
           </div>
         ))}
       </div>

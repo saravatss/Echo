@@ -20,6 +20,10 @@
     letter-spacing: -1.92px;
   }
   
+.title a {
+  text-decoration: none;
+}
+
   .feedTitle,
   .subscriptionsTitle {
     color: var(--black-color);
@@ -27,6 +31,21 @@
   
   .subscriptionsTitle {
     opacity: 50%;
+  }
+
+  .subscriptionsTitle.active {
+    font-weight: 700;
+    opacity: 1;
+  }
+
+  .feedTitle:not(.active) {
+    opacity: 0.5;
+    font: 700 96px/1 Tilda Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+
+  .title a:hover .feedTitle,
+  .title a:hover .subscriptionsTitle {
+    font-weight: 700; 
   }
   
   .filterSection {
@@ -145,7 +164,14 @@
     color: var(--black-color);
     font: 400 12px/1.1 Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
     background-color: var(--white-color);
+    transition: background-color 0.3s ease;
   }
+
+  .headerTag:hover {
+    background-color: var(--orange-color)
+  }
+
+
   
   @media (max-width: 1024px) {
     .filterDropdown {

@@ -1,0 +1,37 @@
+.container {
+    margin-top: 64px;
+}
+
+.mainInfo, .mainInfo2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.mainInfo2 {
+    margin-top: 85px;
+    margin-bottom: 90px;
+}
+
+.mainTnfoText {
+    font: 300 24px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+    max-width: 1200px;
+}
+
+.mapTitle {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.mapImages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.patternMap {
+    margin-top: 64px;
+    width: 100%;
+}
+
+

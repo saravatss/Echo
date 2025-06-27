@@ -13,7 +13,6 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    justify-content: start;
   }
   
   .bottomGallery {
@@ -23,7 +22,8 @@
     justify-content: space-between;
     flex-direction: row;
   }
+
+  .blockText {
+    display: flex;
+  }
   
-.galleryImage1, .galleryImage2 {
-  width: 672px;
-}

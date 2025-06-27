@@ -3,13 +3,6 @@ import "./ArticleInfoBellow.css";
 export default function ArticleInfoBellow() {
   return (
     <div className="articleInfoContainer">
-      <div className="articleActionBar">
-        <div className="rateArticle">
-          <img src="./LikeWhite.svg" className="rateIcon" />
-          <span>Оценить статью</span>
-        </div>
-        <button className="favoriteButton">Сохранить в избранное</button>
-      </div>
 
       <div className="authorSection">
         <div className="authorInfo">

@@ -1,8 +1,13 @@
 .ArticleTextDescription {
     color: var(--black-color);
-    align-self: end;
-    margin-top: 64px;
-    width: 667px;
+    margin-top: 32px;
+    max-width: 920px;
     font: 300 24px/28px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
-  }
+}
+
+.ArticleSecondTitle {
+  max-width: 1300px;
+  font: 400 40px/50px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+  margin-top: 32px;
+}
   

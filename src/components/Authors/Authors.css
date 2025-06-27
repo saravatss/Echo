@@ -49,6 +49,17 @@
   
   .authorInfo {
     flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .likesAuthors {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
   }
   
   .authorName {
@@ -58,6 +69,12 @@
     color: var(--black-color);
     font: 400 32px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
   }
+
+  .authorCard a {
+  text-decoration: none;
+}
+
+  
   
   .followers {
     color: var(--black-color);

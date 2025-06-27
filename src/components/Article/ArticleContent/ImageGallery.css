@@ -1,16 +1,18 @@
-.galleryContainer {
+  .galleryContainer {
     display: flex;
     gap: 20px;
-    justify-content: space-between;
+  }
+
+  .galleryText {
+    font: 300 14px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
   }
   
   .galleryImage1,
-  .galleryImage2 {
-    object-fit: contain;
-    object-position: center;
-    width: 536px;
+  .galleryImage2,
+  .galleryImage6,
+  .galleryImage7 {
+    width: 672px;
     border-radius: 16px;
-    align-self: stretch;
     min-width: 240px;
     flex-grow: 1;
     margin: auto 0;
@@ -19,11 +21,15 @@
   .galleryImage3,
   .galleryImage4,
   .galleryImage5 {
-    object-fit: contain;
-    object-position: center;
     width: 372px;
-    align-self: stretch;
     min-width: 240px;
     margin: auto 0;
   }
-  
+
+  .manArticle {
+    border-radius: 16px;
+  }
+
+  .secondaryGallery {
+    margin-top: 40px;
+  }

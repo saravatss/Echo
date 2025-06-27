@@ -1,0 +1,62 @@
+.containerInfo {
+    font: 300 24px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+    color: var(--black-color);
+    display: flex;
+    gap: 48px;
+    margin-bottom: 95px;
+    column-count: none;
+}
+
+.authorOneInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.infoAndPosts {
+    padding: 40px;
+}
+
+.authorTitle {
+    font: 700 96px/110px Tilda Sans, -apple-system, Roboto, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.likes {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-direction: row;
+    font-weight: 400;
+    margin-top: 24px;
+    font-size: 32px;
+}
+
+.descriptionInfo {
+    max-width: 720px;
+    margin-top: 0px;
+}
+
+.rightInfo {
+    display: block;
+}
+
+.share {
+    font: 400 16px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+    border-radius: 20px;
+    background-color: var(--orange-color);
+    border: 0px;
+    padding: 8px 16px;
+    color: var(--white-color);
+    transition: background-color 0.3s ease;
+}
+
+.share:hover {
+  background-color: var(--dark-blue-color)
+}
+
+.postsTitle {
+    font: 600 48px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+    margin-bottom: 0px;
+}

@@ -3,9 +3,13 @@
   color: var(--white-color);
   border-radius: 12px;
   border: none;
-  font: 400 16px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
+  font: 300 14px Suisse Intl, -apple-system, Roboto, Helvetica, sans-serif;
   transition: background-color 0.3s ease;
   padding: 8px;
+}
+
+.tags {
+  grid-row: 5;
 }
 
 .tag:hover {

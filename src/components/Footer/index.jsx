@@ -28,11 +28,13 @@ export default function Footer() {
                 alt="Social media icon"
                 className="socialIcon"
               />
-              <img
+              <a href="https://t.me/ehochanell">
+                <img
                 src="./tg-icon.svg"
                 alt="Social media icon"
                 className="socialIcon"
               />
+              </a>
             </div>
             <p className="copyright">© 2024 Эхо. Все права защищены.</p>
           </div>

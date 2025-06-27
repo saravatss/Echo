@@ -4,7 +4,8 @@ import Footer from "@/components/Footer";
 import ArticleHeader from "@/components/Article/ArticleHeader";
 import History from "@/components/Article/ArticleContent/History";
 import ArticleInfoBellow from "@/components/Article/ArticleInfoBellow/ArticleInfoBellow";
-import "./article.css"
+import "@/components/Article/ArticleInfoBellow/PostsArticle.css"
+import PostsArticle from "@/components/Article/ArticleInfoBellow/PostsArticle";
 
 export default function Article() {
   return (
@@ -13,6 +14,7 @@ export default function Article() {
       <ArticleHeader />
       <History />
       <ArticleInfoBellow />
+      <PostsArticle />
       <Footer />
     </div>
   );
