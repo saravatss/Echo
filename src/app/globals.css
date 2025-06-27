@@ -1,6 +1,15 @@
+@font-face {
+  font-family: 'New Gen 2';
+  src: url('/fonts/NewGen2.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 img {
   object-fit: cover;
 }
+
 
 html {
   margin: 0;
